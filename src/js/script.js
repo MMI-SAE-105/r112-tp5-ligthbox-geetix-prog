@@ -8,4 +8,10 @@ document.querySelectorAll('[data-full-img]').forEach((imgThumb)=>{
     });
 });
 
-
+lightbox.addEventListener("click", (evt) => {
+    lightbox.classList.add("sortie");
+    lightbox.addEventListener("animationend", () => {
+        lightbox.classList.remove("sortie");
+        lightbox.close();
+    }, {once: true});
+});
