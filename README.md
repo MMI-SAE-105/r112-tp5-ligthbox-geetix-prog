@@ -1,7 +1,7 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/OIjmcd9a)
-- nom :
-- prénom :
-- URL Netlify :
+- nom : Guellati
+- prénom : Mathis
+- URL Netlify : https://timely-semolina-3ac557.netlify.app
 
 # Travail
 
@@ -12,11 +12,11 @@ N'oublier pas votre nom, prénom et l'URL de publication Netlify...
 Testez dans la console :
 
 ```js
-lightBox = document.querySelector("#lightbox");
+lightBox = document.querySelector("#lightbox"); //permet de sélectionner l'image avec l'id lightbox
 
-lightBox.showModal();
+lightBox.showModal(); // permet d'ouvrir l'image en grand
 
-lightBox.close();
+lightBox.close(); //permet de fermer l'image
 ```
 
 # Code CSS
