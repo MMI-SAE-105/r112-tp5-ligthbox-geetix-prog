@@ -6,17 +6,30 @@ dialog{
     border-radius: 10px;
 }
 
-dialog::backdrop{
-    background-color: rgb(252, 198, 72);
-    opacity: 25%;
-    
-}
-
 dialog#lightbox[open] {
-
+    animation: entrer 1s;
 }
 dialog#lightbox[open].sortie {
-    animation: sortie 10s;
+    animation: sortie 1s;
+}
+
+::backdrop{
+    background-color: rgb(252, 198, 72);
+    animation: entrer 1s;
+}
+
+.sortie::backdrop{
+    animation: sortie 1s;
+}
+
+
+@keyframes entrer {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 @keyframes sortie {
