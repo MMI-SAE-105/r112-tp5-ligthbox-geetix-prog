@@ -9,6 +9,7 @@ dialog{
 dialog#lightbox[open] {
     animation: entrer 1s;
 }
+
 dialog#lightbox[open].sortie {
     animation: sortie 1s;
 }
@@ -22,12 +23,11 @@ dialog#lightbox[open].sortie {
     animation: sortie 1s;
 }
 
-
-@keyframes entrer {
-    0% {
-        opacity: 0;
+@keyframes entrer{
+    0%{
+        opacity:0;
     }
-    100% {
+    100%{
         opacity: 1;
     }
 }
